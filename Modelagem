@@ -1,0 +1,15 @@
+ Primeira Forma Normal:
+ 
+ 1 - Todo campo vetorizado se tornara outra tabela.
+ *vetorizado é mais um dado por atributo, por exemplo telefone 1, telefone 2 ...
+ 
+ 2 - Todo campo multivalorado se tornara outra tabela ou quando o campo for divisível
+ exemplo: endereço composto (rua, bairro, cidade, estado) na mesma linha.
+ 
+ 3 - Toda tabela necessita de pelo menos um campo que identifique todo o registro como sendo único.
+ (chave primária).
+ Devemos adotar a chave primária com base no dado e não no negócio, ou seja devemos adotar uma chave artifical e não natural, exemplo de chave 
+ natural: CPF, RG... a chave natural deixa o banco mais coeso, porém é algo de foge do nosso controle.
+ 
+ 
+ 
