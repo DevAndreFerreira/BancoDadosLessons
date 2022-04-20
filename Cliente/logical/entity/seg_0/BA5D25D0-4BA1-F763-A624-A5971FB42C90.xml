@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA5D25D0-4BA1-F763-A624-A5971FB42C90" name="ENDERECO">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:07:19 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="493EAEA0-8B3C-26C5-44A8-20C62AEC0207">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:07:30 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUA" id="EE63F23A-9AA1-B2F4-5225-D13FA6EB68C1">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:10:46 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIDADE" id="8930DDEA-88A8-DDC9-745F-E4D4A9D32119">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:10:54 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="A2EB7563-412D-34E3-422C-D4E8E4FF3378">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:11:32 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="32C3C341-CB41-7B26-9E22-EB0C91C342B3">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:11:47 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB370DCE-6D9A-0AAC-3014-D2B654C4BC2A" name="ENDERECO PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:13:16 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>493EAEA0-8B3C-26C5-44A8-20C62AEC0207</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

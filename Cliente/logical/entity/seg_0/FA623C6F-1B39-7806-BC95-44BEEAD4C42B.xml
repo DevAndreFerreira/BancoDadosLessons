@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA623C6F-1B39-7806-BC95-44BEEAD4C42B" name="TELEFONE">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:06:54 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TELEFONE" id="A14D90D2-6CC2-42B0-EB51-8D6B9FD03801">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:07:02 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="105F1556-1C53-9D75-C5C5-2689731A202D">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:12:12 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_TELEFONE" id="5C146072-A4D6-1D54-993E-AEAE817DCD7B">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:12:21 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F0CF572-E89E-C2F3-F3FD-A54CBF9E81E5" name="TELEFONE PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:07:16 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A14D90D2-6CC2-42B0-EB51-8D6B9FD03801</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

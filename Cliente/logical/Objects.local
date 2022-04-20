@@ -1,2 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.logical.LogicalDesign/>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="C92D081E-AA6D-B9F2-69E5-791ABFB7ACA8" name="Cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E6AD395F-A460-FBBE-5DC7-D34B6F99BFA5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BA5D25D0-4BA1-F763-A624-A5971FB42C90" name="ENDERECO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E6AD395F-A460-FBBE-5DC7-D34B6F99BFA5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="FA623C6F-1B39-7806-BC95-44BEEAD4C42B" name="TELEFONE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E6AD395F-A460-FBBE-5DC7-D34B6F99BFA5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="EntityView" objectID="76F00592-8491-5D82-6B65-D8D008E8ACD2" name="POSSUI" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.EntityView" propertyParentId="E6AD395F-A460-FBBE-5DC7-D34B6F99BFA5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="EntityView" objectID="13BD29F7-DA7F-4C32-D8CB-32C085E6E298" name="POSSUI " seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.EntityView" propertyParentId="E6AD395F-A460-FBBE-5DC7-D34B6F99BFA5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="EntityView" objectID="FA8738BC-1F60-7932-BABE-CA2CB0D79559" name="POSSUI  " seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.EntityView" propertyParentId="E6AD395F-A460-FBBE-5DC7-D34B6F99BFA5" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

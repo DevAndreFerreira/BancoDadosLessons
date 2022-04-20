@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C92D081E-AA6D-B9F2-69E5-791ABFB7ACA8" name="Cliente">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:05:42 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="83C9A087-7E8A-283A-DF91-4FA07A3CB9C5">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:06:02 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENDERECO" id="4F17CEC6-03FC-F850-E0F6-3D68C12CF19F">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:10:29 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="8FB81F03-8F5B-A22E-9C44-30125ABBCD78">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:10:29 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEXO" id="2F3AC3F0-25FE-F3C0-8CAF-3A3B47C61E9A">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:10:29 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="FD0AC2DC-2AAE-54DC-882E-7259EE4B49E8">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:10:29 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="CD5300FF-AD98-B214-D146-AC0B1B84B0DC">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:10:29 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C34C1AE4-E0D5-A0C4-29CE-A105AA996E14" name="Cliente PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:06:21 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83C9A087-7E8A-283A-DF91-4FA07A3CB9C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

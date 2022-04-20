@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="13BD29F7-DA7F-4C32-D8CB-32C085E6E298" name="POSSUI ">
+<createdBy>qwerty</createdBy>
+<createdTime>2022-04-20 02:16:33 UTC</createdTime>
+<ownerDesignName>Cliente</ownerDesignName>
+<engineerTo>
+<item key="19FF1010-22DF-0589-E602-28250DCA9163" value="true"/>
+</engineerTo>
+<userDefined>false</userDefined>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+</EntityView>

@@ -1,4 +1,8 @@
 Cardinalidade é também obrigatoriedade.
 O que define a cardinalidade é a regra de negócio.
 
-
+Tipos: O primeiro número define a obrigatoriedade, o segundo número define a cardinalidade, ou seja o máximo que podemos atender.
+(0, N) -> 0 não obrigatório, N aceita muitos.
+(0, 1) -> 0 não obrigatório, 1 aceita um.
+(1, N) -> 1 obrigatório, N aceita muitos.
+(1, 1) -> 1 obrigatório, 1 aceita um.
